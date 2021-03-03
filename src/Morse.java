@@ -5,7 +5,7 @@ public class Morse {
 	private Hashtable<Character, String> hash = new Hashtable<Character, String>();
 	private String clearMessage = new String();
 
-	public void encrypt() {
+	public void translate() {
 		hash.put('a', ".-");
 		hash.put('b', "-...");
 		hash.put('c', "-.-.");
